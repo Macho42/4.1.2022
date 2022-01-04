@@ -1,0 +1,102 @@
+:root {
+  --pozadina: #f4f4f4;
+}
+
+* {
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: sans-serif;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--pozadina);
+}
+
+header {
+  background-color: #35424a;
+  min-height: 4rem;
+  display: flex;
+  border-bottom: #e8491d 3px solid;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  width: 10rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container ul {
+  display: flex;
+  gap: 2rem;
+}
+
+header a {
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header a:hover {
+  color: #ccc;
+  font-weight: semi-bold;
+}
+
+.naranca {
+  color: #e8491d;
+}
+
+#showcase {
+  min-height: 25rem;
+  background: url(/slike/laptile.jpg);
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  color: #f4f4f4;
+}
+
+h1,
+h1 span {
+  font-size: 4rem;
+}
+
+#newsletter {
+  background-color: #35424a;
+}
+
+#newsletter .container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  color: #ccc;
+}
+
+.btn1 {
+  background-color: #e8491d;
+  color: #fff;
+  border: 0;
+  padding: 2px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#newsletter input[type="email"]::placeholder {
+  color: #000;
+}
